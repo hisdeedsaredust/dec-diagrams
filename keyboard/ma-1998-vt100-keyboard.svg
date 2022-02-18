@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- This is derived from the VT100 keyboard master diagram, adapted to the outline figure
+used as the "VT100 Family Keyboard" diagram in TP83, Figure 5-1. This diagram adapts the
+legends of two keys to be as they appear on the VT102, although the LEDs and rest of the
+keys are still labelled as for the VT100. The changes are that "LINE/LOCAL" becomes
+"ON/OFF LINE" and "TOGGLE I/O" becomes (more correctly) "TOGGLE 1/0".
+
+Further modifications to be MA-1998, per Figure A-2 in VT100-TM.
+* "KBDLOCKED" (without a space) is one line, making LEDs section slightly smaller
+* "LINE/LOCAL"
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="243mm"
+   height="75mm"
+   viewBox="0 0 972 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="vt100-keyboard.svg">
+  <title>VT100 Keyboard</title>
+  <style>
+    text { font-family: Helvetica, sans-serif; font-style: normal; font-weight: normal; fill: black }
+    .led-label { font-size: 8px; text-anchor: middle }
+    .letter-cap { font-size: 18px; font-weight: bold; text-anchor: middle }
+    .text-cap { font-size: 8px; font-weight: normal }
+    .double-cap { font-size: 16px; font-weight: bold }
+    .drawing-serial { font-size: 7px; text-anchor: end }
+    .led { fill: none; stroke: #000; stroke-width: 1px }
+    .key { fill: none; stroke: black; stroke-width: 1px }
+    .arrow { fill: black }
+    #ledrect, #border { fill: none; stroke: black; stroke-width: 1px }
+    /*@media (prefers-color-scheme:dark) {
+        svg { background-color: black }
+        text { fill: white }
+        .key, .led { stroke: white }
+        .arrow { fill: white }
+        #ledrect, #border { stroke: white }
+    }*/
+  </style>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="126.41079"
+     inkscape:cy="939.76583"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1286"
+     inkscape:window-height="1094"
+     inkscape:window-x="1068"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>VT100 Keyboard</dc:title>
+        <dc:date>2020-03-24</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Paul Flo Williams &lt;paul@vt100.net&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>See licence</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>Redrawn from VT100 User Guide, EK-VT100-UG-003</dc:source>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>VT100 video terminal keyboard</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Diagram of the VT100 keyboard, as it appears in Figure 3-2 of DEC part EK-VT100-UG-003, &quot;VT100 User Guide&quot;. The font in the original diagram is Helvetica, but it should work fine in any reasonably compact sans serif.</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="VT100 Keyboard"
+     inkscape:groupmode="layer"
+     id="layer1">
+
+    <rect id="bg" x="0" y="0" width="972" height="300" fill="none" />
+    <path id="border" d="m 44,24 h 64 v -10 h 424 v 10 h 176 v 44 h 44 v 48 h -28 v 88 h -10 v 44 h -138 v 44 h -408 v -44 h -160 v -92 h 36 z m 740,0 h 180 v 224 h -180 z" fill="none" stroke="none" />
+
+    <text class="drawing-serial" x="962" y="290">MA-1998</text>
+    <g id="panel" transform="translate(112,12)">
+      <rect id="ledrect" width="416" height="50"  x="0" y="6" fill="#ccc" />
+      <text class="led-label" x="44" y="53"><tspan>CLEAR TAB</tspan><tspan x="44" dy="-9">SET/</tspan></text>
+      <text class="led-label" x="88" y="53"><tspan>TABS</tspan><tspan x="88" dy="-9">CLEAR ALL</tspan></text>
+      <text class="led-label" x="132" y="53"><tspan>LOCAL</tspan><tspan x="132" dy="-9">LINE/</tspan></text>
+      <text class="led-label" x="176" y="53"><tspan>A/B</tspan><tspan x="176" dy="-9">SETUP</tspan></text>
+      <text class="led-label" x="220" y="53"><tspan>1/0</tspan><tspan x="220" dy="-9">TOGGLE</tspan></text>
+      <text class="led-label" x="264" y="53"><tspan>SPEED</tspan><tspan x="264" dy="-9">TRANSMIT</tspan></text>
+      <text class="led-label" x="308" y="53"><tspan>SPEED</tspan><tspan x="308" dy="-9">RECEIVE</tspan></text>
+      <text class="led-label" x="352" y="53"><tspan>COLUMNS</tspan><tspan x="352" dy="-9">80/132</tspan></text>
+      <text class="led-label" x="396" y="53"><tspan>RESET</tspan></text>
+      <circle class="led" cx="95" cy="27" r="5" />
+      <circle class="led" cx="135" cy="27" r="5" />
+      <circle class="led" cx="175" cy="27" r="5" />
+      <circle class="led" cx="215" cy="27" r="5" />
+      <circle class="led" cx="255" cy="27" r="5" />
+      <circle class="led" cx="295" cy="27" r="5" />
+      <circle class="led" cx="335" cy="27" r="5" />
+      <text class="led-label" x="95" y="19"><tspan>ON LINE</tspan></text>
+      <text class="led-label" x="135" y="19"><tspan>LOCAL</tspan></text>
+      <text class="led-label" x="175" y="19"><tspan>KBDLOCKED</tspan></text>
+      <text class="led-label" x="215" y="19"><tspan>L1</tspan></text>
+      <text class="led-label" x="255" y="19"><tspan>L2</tspan></text>
+      <text class="led-label" x="295" y="19"><tspan>L3</tspan></text>
+      <text class="led-label" x="335" y="19"><tspan>L4</tspan></text>
+    </g>
+
+    <g id="keysetup" transform="translate(48,28)">
+      <rect class="key" width="60" height="40" x="0" y="0" />
+      <text class="text-cap" x="30" y="23" text-anchor="middle"><tspan>SET UP</tspan></text>
+    </g>
+    <g id="keyup" transform="translate(532,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <path class="arrow" d="m -3 15 h 6 v -12 c 0 -3 4 -1 6 0 l -9 -18 l -9 18 c 2 -1 6 -3 6 0 z" fill="#fff" transform="translate(20,20) scale(0.5)"/>
+    </g>
+    <g id="keydown" transform="translate(576,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <path class="arrow" d="m -3 15 h 6 v -12 c 0 -3 4 -1 6 0 l -9 -18 l -9 18 c 2 -1 6 -3 6 0 z" fill="#fff" transform="translate(20,20) scale(0.5) rotate(180)"/>
+    </g>
+    <g id="keyleft" transform="translate(620,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <path class="arrow" d="m -3 15 h 6 v -12 c 0 -3 4 -1 6 0 l -9 -18 l -9 18 c 2 -1 6 -3 6 0 z" fill="#fff" transform="translate(20,20) scale(0.5) rotate(-90)"/>
+    </g>
+    <g id="keyright" transform="translate(664,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <path class="arrow" d="m -3 15 h 6 v -12 c 0 -3 4 -1 6 0 l -9 -18 l -9 18 c 2 -1 6 -3 6 0 z" fill="#fff" transform="translate(20,20) scale(0.5) rotate(90)"/>
+    </g>
+    <g id="keypf1" transform="translate(788,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>PF1</tspan></text>
+    </g>
+    <g id="keypf2" transform="translate(832,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>PF2</tspan></text>
+    </g>
+    <g id="keypf3" transform="translate(876,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>PF3</tspan></text>
+    </g>
+    <g id="keypf4" transform="translate(920,28)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>PF4</tspan></text>
+    </g>
+
+    <g id="keyesc" transform="translate(48,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>ESC</tspan></text>
+    </g>
+    <g id="key1" transform="translate(92,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>1</tspan><tspan x="20" dy="-17">!</tspan></text>
+    </g>
+    <g id="key2" transform="translate(136,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>2</tspan><tspan x="20" dy="-17">@</tspan></text>
+    </g>
+    <g id="key3" transform="translate(180,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>3</tspan><tspan x="20" dy="-17"># £</tspan></text>
+    </g>
+    <g id="key4" transform="translate(224,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>4</tspan><tspan x="20" dy="-17">$</tspan></text>
+    </g>
+    <g id="key5" transform="translate(268,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>5</tspan><tspan x="20" dy="-17">%</tspan></text>
+    </g>
+    <g id="key6" transform="translate(312,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>6</tspan><tspan x="20" dy="-17">^</tspan></text>
+    </g>
+    <g id="key7" transform="translate(356,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>7</tspan><tspan x="20" dy="-17">&amp;</tspan></text>
+    </g>
+    <g id="key8" transform="translate(400,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>8</tspan><tspan x="20" dy="-17">*</tspan></text>
+    </g>
+    <g id="key9" transform="translate(444,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>9</tspan><tspan x="20" dy="-17">(</tspan></text>
+    </g>
+    <g id="key0" transform="translate(488,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>0</tspan><tspan x="20" dy="-17">)</tspan></text>
+    </g>
+    <g id="keyminusund" transform="translate(532,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>-</tspan><tspan x="20" dy="-17">_</tspan></text>
+    </g>
+    <g id="keyequalplus" transform="translate(576,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>=</tspan><tspan x="20" dy="-17">+</tspan></text>
+    </g>
+    <g id="keygravetilde" transform="translate(620,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>`</tspan><tspan x="20" dy="-17">~</tspan></text>
+    </g>
+    <g id="keybackspace" transform="translate(664,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="8" y="28"><tspan>SPACE</tspan><tspan x="8" dy="-10">BACK</tspan></text>
+    </g>
+    <g id="keybreak" transform="translate(708,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>BREAK</tspan></text>
+    </g>
+    <g id="keyn7" transform="translate(788,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">7</text>
+    </g>
+    <g id="keyn8" transform="translate(832,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap"  x="20" y="27">8</text>
+    </g>
+    <g id="keyn9" transform="translate(876,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">9</text>
+    </g>
+    <g id="keynminus" transform="translate(920,72)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">-</text>
+    </g>
+
+
+    <g id="keytab" transform="translate(48,116)">
+      <rect class="key" width="56" height="40" x="0" y="0" />
+      <text class="text-cap" x="28" y="23" text-anchor="middle"><tspan>TAB</tspan></text>
+    </g>
+    <g id="keyq" transform="translate(108,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">Q</text>
+    </g>
+    <g id="keyw" transform="translate(152,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">W</text>
+    </g>
+    <g id="keye" transform="translate(196,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">E</text>
+    </g>
+    <g id="keyr" transform="translate(240,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">R</text>
+    </g>
+    <g id="keyt" transform="translate(284,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">T</text>
+    </g>
+    <g id="keyy" transform="translate(328,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">Y</text>
+    </g>
+    <g id="keyu" transform="translate(372,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">U</text>
+    </g>
+    <g id="keyi" transform="translate(416,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="28">I</text>
+    </g>
+    <g id="keyo" transform="translate(460,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">O</text>
+    </g>
+    <g id="keyp" transform="translate(504,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">P</text>
+    </g>
+    <g id="keylbrack" transform="translate(548,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>[</tspan><tspan x="20" dy="-17">{</tspan></text>
+    </g>
+    <g id="keyrbrack" transform="translate(592,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>]</tspan><tspan x="20" dy="-17">}</tspan></text>
+    </g>
+    <g id="keyreturn" transform="translate(636,116)">
+      <path class="key" d="m 0,0 h 40 v 84 h -60 v -40 h 20 z" />
+      <text class="text-cap" x="10" y="67" text-anchor="middle"><tspan>RETURN</tspan></text>
+    </g>
+    <g id="keydelete" transform="translate(680,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>DELETE</tspan></text>
+    </g>
+    <g id="keyn4" transform="translate(788,116)">
+    <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">4</text>
+    </g>
+    <g id="keyn5" transform="translate(832,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">5</text>
+    </g>
+    <g id="keyn6" transform="translate(876,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">6</text>
+    </g>
+    <g id="keyncomma" transform="translate(920,116)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="22">,</text>
+    </g>
+
+    <g id="keyctrl" transform="translate(12,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="20" y="23" text-anchor="middle"><tspan>CTRL</tspan></text>
+    </g>
+    <g id="keycaps" transform="translate(56,160)">
+      <rect class="key" width="72" height="40" x="0" y="0" />
+      <text class="text-cap" x="10" y="28"><tspan>LOCK</tspan><tspan x="10" dy="-10">CAPS</tspan></text>
+    </g>
+    <g id="keya" transform="translate(132,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">A</text>
+    </g>
+    <g id="keys" transform="translate(176,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">S</text>
+    </g>
+    <g id="keyd" transform="translate(220,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">D</text>
+    </g>
+    <g id="keyf" transform="translate(264,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">F</text>
+    </g>
+    <g id="keyg" transform="translate(308,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="32"><tspan>G</tspan><tspan x="20" dy="-17" style="font-size:12px;font-weight:normal">BELL</tspan></text>
+    </g>
+    <g id="keyh" transform="translate(352,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">H</text>
+    </g>
+    <g id="keyj" transform="translate(396,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">J</text>
+    </g>
+    <g id="keyk" transform="translate(440,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">K</text>
+    </g>
+    <g id="keyl" transform="translate(484,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">L</text>
+    </g>
+    <g id="keysemi" transform="translate(528,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>;</tspan><tspan x="20" dy="-17">:</tspan></text>
+    </g>
+    <g id="keyquote" transform="translate(572,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan>'</tspan><tspan x="20" dy="-17">"</tspan></text>
+    </g>
+    <g id="keybackslash" transform="translate(680,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan rotate="-10">\</tspan><tspan x="20" dy="-17">|</tspan></text>
+    </g>
+    <g id="keyn1" transform="translate(788,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">1</text>
+    </g>
+    <g id="keyn2" transform="translate(832,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">2</text>
+    </g>
+    <g id="keyn3" transform="translate(876,160)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">3</text>
+    </g>
+    <g id="keynenter" transform="translate(920,160)">
+      <rect class="key" width="40" height="84" x="0" y="0" />
+      <text class="text-cap" x="20" y="45" text-anchor="middle"><tspan>ENTER</tspan></text>
+    </g>
+
+    <g id="keynoscroll" transform="translate(12,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="5" y="28"><tspan>SCROLL</tspan><tspan x="5" dy="-10">NO</tspan></text>
+    </g>
+    <g id="keylshift" transform="translate(56,204)">
+      <rect class="key" width="94" height="40" x="0" y="0" />
+      <text class="text-cap" x="47" y="23" text-anchor="middle"><tspan>SHIFT</tspan></text>
+    </g>
+    <g id="keyz" transform="translate(154,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">Z</text>
+    </g>
+    <g id="keyx" transform="translate(198,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">X</text>
+    </g>
+    <g id="keyc" transform="translate(242,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">C</text>
+    </g>
+    <g id="keyv" transform="translate(286,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">V</text>
+    </g>
+    <g id="keyb" transform="translate(330,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">B</text>
+    </g>
+    <g id="keyn" transform="translate(374,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">N</text>
+    </g>
+    <g id="keym" transform="translate(418,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="27">M</text>
+    </g>
+    <g id="keycomma" transform="translate(462,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="32" text-anchor="middle"><tspan>,</tspan><tspan x="20" dy="-13">&lt;</tspan></text>
+    </g>
+    <g id="keystop" transform="translate(506,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="32" text-anchor="middle"><tspan>.</tspan><tspan x="20" dy="-13">&gt;</tspan></text>
+    </g>
+    <g id="keyslash" transform="translate(550,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="double-cap" x="20" y="34" text-anchor="middle"><tspan rotate="10">/</tspan><tspan x="20" dy="-17">?</tspan></text>
+    </g>
+    <g id="keyrshift" transform="translate(594,204)">
+      <rect class="key" width="72" height="40" x="0" y="0" />
+      <text class="text-cap" x="36" y="23" text-anchor="middle"><tspan>SHIFT</tspan></text>
+    </g>
+    <g id="keylinefeed" transform="translate(670,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="text-cap" x="8" y="28"><tspan>FEED</tspan><tspan x="8" dy="-10">LINE</tspan></text>
+    </g>
+    <g id="keyn0" transform="translate(788,204)">
+      <rect class="key" width="84" height="40" x="0" y="0" />
+      <text class="letter-cap" x="42" y="27">0</text>
+    </g>
+    <g id="keyndot" transform="translate(876,204)">
+      <rect class="key" width="40" height="40" x="0" y="0" />
+      <text class="letter-cap" x="20" y="22">.</text>
+    </g>
+
+    <g id="keyspace" transform="translate(172,248)">
+      <rect class="key" width="400" height="40" x="0" y="0" />
+    </g>
+  </g>
+</svg>
