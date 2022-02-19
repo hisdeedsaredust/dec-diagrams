@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="190mm"
+   height="85mm"
+   viewBox="0 0 760 340"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="vt102-keyboard.svg">
+  <title>VT102 Keyboard</title>
+  <style>
+    text { font-family: Helvetica, sans-serif; font-style: normal; font-weight: normal; font-size: 11px }
+    rect, path { fill: none; stroke: #000; stroke-width: 1px }
+    #keyesc rect, #keytab rect, #keyreturn path, #keybackspace rect, #keydelete rect, #keylinefeed rect { fill: #a30; fill-opacity: 0.4 }
+    #bg { fill: none; stroke: none }
+    .drawing-serial { font-size: 7px; text-anchor: end }
+  </style>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="126.41079"
+     inkscape:cy="939.76583"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1286"
+     inkscape:window-height="1094"
+     inkscape:window-x="1068"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>VT102 Keyboard</dc:title>
+        <dc:date>2020-03-25</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Paul Flo Williams &lt;paul@vt100.net&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>See licence</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>Redrawn from VT100 User Guide, EK-VT100-UG-003</dc:source>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>VT100 video terminal keyboard</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Diagram of the VT100 keyboard, highlighted as it appears in Figure 1-2 of DEC part EK-VT100-UG-003, &quot;VT100 User Guide&quot;. The font in the original diagram is Helvetica, but it should work fine in any reasonably compact sans serif.</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="VT102 Keyboard"
+     inkscape:groupmode="layer"
+     id="layer1">
+
+    <rect id="bg" x="0" y="0" width="760" height="340" />
+    <text class="drawing-serial" x="750" y="330">MA-7419B</text>
+
+    <text x="180" y="36"><tspan>MNEMONICS SHOWN ABOVE KEYCAP LEGENDS</tspan></text>
+    <text x="180" y="48"><tspan>OCTAL CODES SHOWN BELOW KEYCAP LEGENDS</tspan></text>
+
+    <text x="10" y="320"><tspan>NOTE:</tspan><tspan x="52">THE \ AND LINE FEED KEYS FUNCTION AS SHOWN WHEN THE WPS TERMINAL KEYBOARD FEATURE IS OFF (0).</tspan></text>
+    <text x="52" y="332"><tspan>WHEN WPS TERMINAL KEYBOARD IS ON (1), THESE KEYS SWITCH FUNCTIONS.</tspan></text>
+
+    <g id="keysetup" transform="translate(48,28)">
+      <rect width="60" height="40" x="0" y="0" fill="#000" />
+    </g>
+    <g id="keyup" transform="translate(532,28)">
+      <rect width="40" height="40" x="0" y="0" fill="#000" />
+    </g>
+    <g id="keydown" transform="translate(576,28)">
+      <rect width="40" height="40" x="0" y="0" fill="#000" />
+    </g>
+    <g id="keyleft" transform="translate(620,28)">
+      <rect width="40" height="40" x="0" y="0" fill="#000" />
+    </g>
+    <g id="keyright" transform="translate(664,28)">
+      <rect width="40" height="40" x="0" y="0" fill="#000" />
+    </g>
+
+    <g id="keyesc" transform="translate(48,72)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ESC</tspan><tspan x="20" dy="12">ESC</tspan><tspan x="20" dy="12">033</tspan></text></g>
+    <g id="key1" transform="translate(92,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key2" transform="translate(136,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key3" transform="translate(180,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key4" transform="translate(224,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key5" transform="translate(268,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key6" transform="translate(312,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key7" transform="translate(356,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key8" transform="translate(400,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key9" transform="translate(444,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="key0" transform="translate(488,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keyminusund" transform="translate(532,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keyequalplus" transform="translate(576,72)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keygravetilde" transform="translate(620,72)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>RS</tspan><tspan x="20" dy="12">` ~</tspan><tspan x="20" dy="12">036</tspan></text></g>
+    <g id="keybackspace" transform="translate(664,72)"><rect width="40" height="40" x="0" y="0" fill="#000" /><text x="20" y="12" text-anchor="middle"><tspan>BS</tspan><tspan x="20" dy="7" font-size="7px">BACK</tspan><tspan x="20" dy="7" font-size="7px">SPACE</tspan><tspan x="20" dy="10">010</tspan></text></g>
+    <g id="keybreak" transform="translate(708,72)">
+      <rect width="40" height="40" x="0" y="0" fill="#000" />
+    </g>
+
+
+    <g id="keytab" transform="translate(48,116)"><rect width="56" height="40" x="0" y="0" /><text x="28" y="12" text-anchor="middle"><tspan>HT</tspan><tspan x="28" dy="12">TAB</tspan><tspan x="28" dy="12">011</tspan></text></g>
+    <g id="keyq" transform="translate(108,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>XON</tspan><tspan x="20" dy="12">Q</tspan><tspan x="20" dy="12">021</tspan></text></g>
+    <g id="keyw" transform="translate(152,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ETB</tspan><tspan x="20" dy="12">W</tspan><tspan x="20" dy="12">027</tspan></text></g>
+    <g id="keye" transform="translate(196,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ENQ</tspan><tspan x="20" dy="12">E</tspan><tspan x="20" dy="12">005</tspan></text></g>
+    <g id="keyr" transform="translate(240,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>DC2</tspan><tspan x="20" dy="12">R</tspan><tspan x="20" dy="12">022</tspan></text></g>
+    <g id="keyt" transform="translate(284,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>DC4</tspan><tspan x="20" dy="12">T</tspan><tspan x="20" dy="12">024</tspan></text></g>
+    <g id="keyy" transform="translate(328,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>EM</tspan><tspan x="20" dy="12">Y</tspan><tspan x="20" dy="12">031</tspan></text></g>
+    <g id="keyu" transform="translate(372,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>NAK</tspan><tspan x="20" dy="12">U</tspan><tspan x="20" dy="12">025</tspan></text></g>
+    <g id="keyi" transform="translate(416,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>HT</tspan><tspan x="20" dy="12">I</tspan><tspan x="20" dy="12">011</tspan></text></g>
+    <g id="keyo" transform="translate(460,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>SI</tspan><tspan x="20" dy="12">O</tspan><tspan x="20" dy="12">017</tspan></text></g>
+    <g id="keyp" transform="translate(504,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>DLE</tspan><tspan x="20" dy="12">P</tspan><tspan x="20" dy="12">020</tspan></text></g>
+    <g id="keylbrack" transform="translate(548,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ESC</tspan><tspan x="20" dy="12">[ {</tspan><tspan x="20" dy="12">033</tspan></text></g>
+    <g id="keyrbrack" transform="translate(592,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>GS</tspan><tspan x="20" dy="12">] }</tspan><tspan x="20" dy="12">035</tspan></text></g>
+    <g id="keyreturn" transform="translate(636,116)">
+      <path d="m 0,0 h 40 v 84 h -60 v -40 h 20 z" fill="#000" stroke="none"/>
+      <text x="10" y="56" text-anchor="middle"><tspan>CR</tspan><tspan x="10" dy="10.5" font-size="7px">RETURN</tspan><tspan x="10" dy="13.5">015</tspan></text>
+    </g>
+    <g id="keydelete" transform="translate(680,116)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>DEL</tspan><tspan x="20" dy="10.5" font-size="7px">DELETE</tspan><tspan x="20" dy="13.5">177</tspan></text></g>
+
+    <g id="keyctrl" transform="translate(12,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="24" text-anchor="middle"><tspan>CTRL</tspan></text></g>
+    <g id="keycaps" transform="translate(56,160)"><rect width="72" height="40" x="0" y="0" /></g>
+    <g id="keya" transform="translate(132,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>SOH</tspan><tspan x="20" dy="12">A</tspan><tspan x="20" dy="12">001</tspan></text></g>
+    <g id="keys" transform="translate(176,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>XOFF</tspan><tspan x="20" dy="12">S</tspan><tspan x="20" dy="12">023</tspan></text></g>
+    <g id="keyd" transform="translate(220,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>EOT</tspan><tspan x="20" dy="12">D</tspan><tspan x="20" dy="12">004</tspan></text></g>
+    <g id="keyf" transform="translate(264,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ACK</tspan><tspan x="20" dy="12">F</tspan><tspan x="20" dy="12">006</tspan></text></g>
+    <g id="keyg" transform="translate(308,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>BEL</tspan><tspan x="20" dy="12">G</tspan><tspan x="20" dy="12">007</tspan></text></g>
+    <g id="keyh" transform="translate(352,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>BS</tspan><tspan x="20" dy="12">H</tspan><tspan x="20" dy="12">010</tspan></text></g>
+    <g id="keyj" transform="translate(396,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>LF</tspan><tspan x="20" dy="12">J</tspan><tspan x="20" dy="12">012</tspan></text></g>
+    <g id="keyk" transform="translate(440,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>VT</tspan><tspan x="20" dy="12">K</tspan><tspan x="20" dy="12">013</tspan></text></g>
+    <g id="keyl" transform="translate(484,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>FF</tspan><tspan x="20" dy="12">L</tspan><tspan x="20" dy="12">014</tspan></text></g>
+    <g id="keysemi" transform="translate(528,160)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keyquote" transform="translate(572,160)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keybackslash" transform="translate(680,160)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>FS</tspan><tspan x="20" dy="12">\ |</tspan><tspan x="20" dy="12">034</tspan></text></g>
+
+    <g id="keynoscroll" transform="translate(12,204)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keylshift" transform="translate(56,204)"><rect width="94" height="40" x="0" y="0" /></g>
+    <g id="keyz" transform="translate(154,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>SUB</tspan><tspan x="20" dy="12">Z</tspan><tspan x="20" dy="12">172</tspan></text></g>
+    <g id="keyx" transform="translate(198,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>CAN</tspan><tspan x="20" dy="12">X</tspan><tspan x="20" dy="12">170</tspan></text></g>
+    <g id="keyc" transform="translate(242,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>ETX</tspan><tspan x="20" dy="12">C</tspan><tspan x="20" dy="12">143</tspan></text></g>
+    <g id="keyv" transform="translate(286,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>SYN</tspan><tspan x="20" dy="12">V</tspan><tspan x="20" dy="12">166</tspan></text></g>
+    <g id="keyb" transform="translate(330,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>STX</tspan><tspan x="20" dy="12">B</tspan><tspan x="20" dy="12">142</tspan></text></g>
+    <g id="keyn" transform="translate(374,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>SO</tspan><tspan x="20" dy="12">N</tspan><tspan x="20" dy="12">156</tspan></text></g>
+    <g id="keym" transform="translate(418,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>CR</tspan><tspan x="20" dy="12">M</tspan><tspan x="20" dy="12">155</tspan></text></g>
+    <g id="keycomma" transform="translate(462,204)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keystop" transform="translate(506,204)"><rect width="40" height="40" x="0" y="0" /></g>
+    <g id="keyslash" transform="translate(550,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>US</tspan><tspan x="20" dy="12">/ ?</tspan><tspan x="20" dy="12">037</tspan></text></g>
+    <g id="keyrshift" transform="translate(594,204)"><rect width="72" height="40" x="0" y="0" /></g>
+    <g id="keylinefeed" transform="translate(670,204)"><rect width="40" height="40" x="0" y="0" /><text x="20" y="12" text-anchor="middle"><tspan>LF</tspan><tspan x="20" dy="7" font-size="7px">LINE</tspan><tspan x="20" dy="7" font-size="7px">FEED</tspan><tspan x="20" dy="10">012</tspan></text>
+    </g>
+
+    <g id="keyspace" transform="translate(172,248)">
+      <rect width="400" height="40" x="0" y="0" />
+      <text x="200" y="12" text-anchor="middle"><tspan>NUL</tspan><tspan x="200" dy="24">000</tspan></text>
+    </g>
+  </g>
+</svg>
