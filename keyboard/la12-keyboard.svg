@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Based on Figure 13-5 from Terminals and Printers Handbook, 1983.
+Changes made from that figure:
+* Duplicated \| key to left of Return, changed to '" key
+* Figure has "Top/Left", "Bottom/Right", "Store/Recall", which photo
+  of terminal confirms should all be other way round.
+* Legend on SET UP key changed to "SET-UP", also from photograph.
+* Legend above "7" is "Clear", not "Margin Clear"
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="260mm"
+   height="95mm"
+   viewBox="-60 0 820 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="lw100-keyboard.svg">
+  <title>DECwriter Correspondent (LA12) Keyboard</title>
+  <style>
+    text { font-family: Helvetica, sans-serif; font-style: normal; font-weight: normal }
+    .led-label { font-size: 8px; fill: black; text-anchor: middle }
+    .led-label-s { font-size: 8px; fill: black; text-anchor: start }
+    .letter-cap { font-size: 16px; fill: white; font-weight: normal; text-anchor: middle }
+    .letter-cap-sm { font-size: 14px; fill: white; font-weight: normal; text-anchor: middle }
+    .text-cap { font-size: 7px; fill: white; font-weight: normal }
+    .double-cap { font-size: 12px; fill: white; font-weight: bold }
+    .drawing-serial { font-size: 7px; text-anchor: end }
+    .led { fill: none; stroke: black; stroke-width: 1px }
+    .key { fill: none; stroke: black; stroke-width: 1px }
+    .arrow { fill: black }
+    line { stroke: white; stroke-width: 1px }
+    .keysep { stroke: white; stroke-width: 0.8px }
+    .nkpd { stroke: white; fill: none; stroke-width: 0.8px }
+    .nleg { font-size: 7px; fill: white; text-anchor: middle }
+    .topleg { stroke: black; stroke-width: 0.8px }
+    /* #ledrect, #border { fill: none; stroke: black; stroke-width: 1px } */
+    /* #bg { fill: #fef } */
+    /* .normkey { fill: pink } */
+    /* .ukey { fill: red; opacity:0.1 } */
+  </style>
+  <defs
+     id="defs2">
+   <path id="sinkey" class="ukey" d="M 0,0 v42 h42 v-42 z m 2.10,1.05 c 1.64,0.00 8.18,3.88 9.65,3.88 c 1.39,0.00 5.91,-0.42 9.23,-0.44 h 0.00 c 3.73,-0.02 8.51,0.60 9.53,0.60 c 1.84,0 8.67,-4.04 9.39,-4.04 c 0.74,0 1.05,0.63 1.05,1.05 c 0,1.38 -5.91,5.43 -5.89,6.97 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.01,1.69 6.03,9.98 6.07,11.31 c 0.03,0.72 -0.44,1.05 -1.05,1.05 c -1.59,0 -7.49,-7.99 -9.52,-7.99 c -2.03,0 -6.69,0.35 -9.38,0.36 h -0 c -2.69,0.01 -7.26,-0.29 -9.23,-0.30 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6.00,-8.90 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.40 0.55,-7.82 0.53,-9.71 c -0.01,-1.73 -6.01,-5.40 -6.03,-7.19 c -0.01,-0.71 0.33,-1.05 1.05,-1.05 z M 9.45,7.35 c -1.05,1.05 -2.10,2.10 -2.10,11.55 c 0,9.45 1.05,10.50 2.10,11.55 c 1.05,1.05 2.10,2.10 11.55,2.10 h 0 c 9.45,0 10.50,-1.05 11.55,-2.10 c 1.05,-1.05 2.10,-2.10 2.10,-11.55 c 0,-9.45 -1.05,-10.50 -2.10,-11.55 c -1.05,-1.05 -2.10,-2.10 -11.55,-2.10 h -0 c -9.45,0 -10.50,1.05, -11.55,2.10 z" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="126.41079"
+     inkscape:cy="939.76583"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1286"
+     inkscape:window-height="1094"
+     inkscape:window-x="1068"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DECwriter Correspondent (LA12) Keyboard</dc:title>
+        <dc:date>2022-02-21</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Paul Flo Williams &lt;paul@vt100.net&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>See licence</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>Redrawn from the 1983 Terminals and Printers Handbook, Figure 13-5</dc:source>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>DECwriter Correspondent (LA120) Keyboard</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Diagram of the DECwriter Correspondent keyboard. Corrections made from Figure 13-5 are:
+(1) Correct quote key to left of Return.
+(2) Margin labels are "Left/Top", "Right/Bottom" and "Recall/Store" and "Clear", per photograph.
+(3) Legend on SET UP key is "SET-UP".</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="LA12 Keyboard"
+     inkscape:groupmode="layer"
+     id="layer1">
+
+    <rect id="bg" x="-60" y="0" width="820" height="300" fill="none" />
+    <path id="border" d="m 44,24 h 64 v -16 h 424 v 16 h 176 v 44 h 44 v 48 h -28 v 88 h -10 v 44 h -138 v 44 h -408 v -44 h -160 v -92 h 36 z m 740,0 h 180 v 224 h -180 z" fill="none" stroke="none" />
+
+    <text class="drawing-serial" x="962" y="290"></text>
+    <g id="panel" transform="translate(112,12)">
+      <rect id="ledrect" width="416" height="56"  x="0" y="0" fill="none" />
+      <text class="led-label-s" style="font-weight:bold" x="2" y="45"><tspan>Tabs</tspan></text>
+      <line class="topleg" x1="3" y1="48" x2="102" y2="48"/>
+      <g transform="translate(3,56) scale(0.9,1)"><text class="led-label-s" x="0" y="0"><tspan>Set</tspan></text></g>
+      <g transform="translate(44,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Clear</tspan></text></g>
+      <g transform="translate(88,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Clear All</tspan></text></g>
+      <g transform="translate(132,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>TOF</tspan></text></g>
+      <text class="led-label-s" style="font-weight:bold" x="161" y="45"><tspan>Margin</tspan></text>
+      <line class="topleg" x1="161" y1="48" x2="274" y2="48"/>
+      <g transform="translate(174,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Left/Top</tspan></text></g>
+      <g transform="translate(218,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Right/Bottom</tspan></text></g>
+      <g transform="translate(266,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Clear</tspan></text></g>
+      <g transform="translate(308,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Status</tspan></text></g>
+      <g transform="translate(352,56) scale(0.9,1)"><text class="led-label" x="0" y="0"><tspan>Recall/Store</tspan></text></g>
+      <g transform="translate(396,56)">
+         <path d="m 0,0 v -7 h -2 l 3,-3.5 l 3,3.5 h -2 v 7 z m 8,-10 v 7 h 2 l -3,3.5 l-3,-3.5 h 2 v -7 z"/>
+      </g>
+      <circle class="led" cx="118" cy="30" r="5" />
+      <circle class="led" cx="154" cy="30" r="5" />
+      <circle class="led" cx="190" cy="30" r="5" />
+      <circle class="led" cx="226" cy="30" r="5" />
+      <circle class="led" cx="262" cy="30" r="5" />
+      <circle class="led" cx="298" cy="30" r="5" />
+      <circle class="led" cx="334" cy="30" r="5" />
+      <circle class="led" cx="370" cy="30" r="5" />
+      <text class="led-label" x="118" y="22"><tspan>DSR</tspan></text>
+      <text class="led-label" x="154" y="22"><tspan>CTS</tspan></text>
+      <text class="led-label" x="190" y="22"><tspan>RLSD</tspan></text>
+      <text class="led-label" x="226" y="22"><tspan>TEST</tspan></text>
+      <text class="led-label" x="262" y="22"><tspan>KEYPAD</tspan></text>
+      <text class="led-label" x="298" y="22"><tspan>LINE</tspan></text>
+      <text class="led-label" x="334" y="22"><tspan>SET-UP</tspan></text>
+      <text class="led-label" x="370" y="22"><tspan>POWER</tspan><tspan x="370" dy="23">FAULT</tspan></text>
+    </g>
+
+    <g id="keysetup" transform="translate(47,27)">
+      <path class="normkey"
+        d="M 0,0 v42 h63 v-42 z m 2.10,1.05 c 1.64,0.00 8.18,3.88 9.65,3.88 c 1.39,0.00 5.91,-0.42 9.23,-0.44 h 21 c 3.73,-0.02 8.51,0.60 9.53,0.60 c 1.84,0 8.67,-4.04 9.39,-4.04 c 0.74,0 1.05,0.63 1.05,1.05 c 0,1.38 -5.91,5.43 -5.89,6.97 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.01,1.69 6.03,9.98 6.07,11.31 c 0.03,0.72 -0.44,1.05 -1.05,1.05 c -1.59,0 -7.49,-7.99 -9.52,-7.99 c -2.03,0 -6.69,0.35 -9.38,0.36 h -21 c -2.69,0.01 -7.26,-0.29 -9.23,-0.30 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6.00,-8.90 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.40 0.55,-7.82 0.53,-9.71 c -0.01,-1.73 -6.01,-5.40 -6.03,-7.19 c -0.01,-0.71 0.33,-1.05 1.05,-1.05 z" />
+      <path class="normkey"
+         d="M 9.45,7.35 c -1.05,1.05 -2.10,2.10 -2.10,11.55 c 0,9.45 1.05,10.50 2.10,11.55 c 1.05,1.05 2.10,2.10 11.55,2.10 h 21 c 9.45,0 10.50,-1.05 11.55,-2.10 c 1.05,-1.05 2.10,-2.10 2.10,-11.55 c 0,-9.45 -1.05,-10.50 -2.10,-11.55 c -1.05,-1.05 -2.10,-2.10 -11.55,-2.10 h -21 c -9.45,0 -10.50,1.05, -11.55,2.10 z" />
+      <text class="text-cap" x="31.5" y="21" text-anchor="middle"><tspan>SET-UP</tspan></text>
+    </g>
+    <g id="keynummode" transform="translate(531,27)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="14" text-anchor="middle"><tspan>NUM</tspan><tspan x="21" dy="7.5">KEY</tspan><tspan x="21" dy="7.5">MODE</tspan></text>
+    </g>
+    <g id="keyhereis" transform="translate(575,27)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="17" text-anchor="middle"><tspan>HERE</tspan><tspan x="21" dy="9">IS</tspan></text>
+    </g>
+    <g id="keylocff" transform="translate(619,27)">
+       <use href="#sinkey" x="0" y="0"/>
+      <line class="keysep" x1="14" y1="19" x2="28" y2="19"/>
+      <text class="text-cap" x="21" y="15" text-anchor="middle"><tspan>LINE</tspan><tspan x="21" dy="14">LOCAL</tspan></text>
+    </g>
+    <g id="keyloclf" transform="translate(663,27)">
+       <use href="#sinkey" x="0" y="0"/>
+      <line class="keysep" x1="14" y1="19" x2="28" y2="19"/>
+      <g transform="translate(21,15) scale(0.9,1)"><text class="text-cap" x="0" y="0" text-anchor="middle"><tspan>LOC FF</tspan><tspan x="0" dy="14">LOC LF</tspan></text></g>
+    </g>
+
+    <g id="keyesc" transform="translate(47,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="21" text-anchor="middle" letter-spacing="0.8"><tspan>ESC</tspan></text>
+    </g>
+    <g id="key1" transform="translate(91,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>1</tspan><tspan x="21" dy="-14">!</tspan></text>
+    </g>
+    <g id="key2" transform="translate(135,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>2</tspan><tspan x="21" dy="-14">@</tspan></text>
+    </g>
+    <g id="key3" transform="translate(179,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>3</tspan><tspan x="21" dy="-14"># £</tspan></text>
+    </g>
+    <g id="key4" transform="translate(223,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>4</tspan><tspan x="21" dy="-14">$</tspan></text>
+    </g>
+    <g id="key5" transform="translate(267,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>5</tspan><tspan x="21" dy="-14">%</tspan></text>
+    </g>
+    <g id="key6" transform="translate(311,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>6</tspan><tspan x="21" dy="-14">^</tspan></text>
+    </g>
+    <g id="key7" transform="translate(355,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="14">+</text><!-- 1px higher -->
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>7</tspan><tspan x="21" dy="-14" text-anchor="start">&amp;</tspan></text>
+    </g>
+    <g id="key8" transform="translate(399,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="14">&#x2012;</text>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>8</tspan><tspan x="21" dy="-14" text-anchor="start">*</tspan></text>
+    </g>
+    <g id="key9" transform="translate(443,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="14.5">&#x2022;</text>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>9</tspan><tspan x="21" dy="-14" text-anchor="start">(</tspan></text>
+    </g>
+    <g id="key0" transform="translate(487,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="30" text-anchor="middle"><tspan>0</tspan><tspan x="21" dy="-14">)</tspan></text>
+    </g>
+    <g id="keyminusund" transform="translate(531,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="29" text-anchor="middle"><tspan>-</tspan><tspan x="21" dy="-14">_</tspan></text><!-- individual spacing -->
+    </g>
+    <g id="keyequalplus" transform="translate(575,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="29" text-anchor="middle"><tspan>=</tspan><tspan x="21" dy="-13">+</tspan></text><!-- individual spacing -->
+    </g>
+    <g id="keygravetilde" transform="translate(619,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="31" text-anchor="middle"><tspan>`</tspan><tspan x="21" dy="-14">~</tspan></text><!-- individual spacing -->
+    </g>
+    <g id="keybackspace" transform="translate(663,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="17" text-anchor="middle"><tspan>BACK</tspan><tspan x="21" dy="9">SPACE</tspan></text>
+    </g>
+    <g id="keybreak" transform="translate(707,71)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="21" text-anchor="middle"><tspan>BREAK</tspan></text>
+    </g>
+
+    <g id="keytab" transform="translate(47,115)">
+      <path class="normkey"
+        d="M 0,0 v42 h63 v-42 z m 2.10,1.05 c 1.64,0.00 8.18,3.88 9.65,3.88 c 1.39,0.00 5.91,-0.42 9.23,-0.44 h 21 c 3.73,-0.02 8.51,0.60 9.53,0.60 c 1.84,0 8.67,-4.04 9.39,-4.04 c 0.74,0 1.05,0.63 1.05,1.05 c 0,1.38 -5.91,5.43 -5.89,6.97 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.01,1.69 6.03,9.98 6.07,11.31 c 0.03,0.72 -0.44,1.05 -1.05,1.05 c -1.59,0 -7.49,-7.99 -9.52,-7.99 c -2.03,0 -6.69,0.35 -9.38,0.36 h -21 c -2.69,0.01 -7.26,-0.29 -9.23,-0.30 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6.00,-8.90 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.40 0.55,-7.82 0.53,-9.71 c -0.01,-1.73 -6.01,-5.40 -6.03,-7.19 c -0.01,-0.71 0.33,-1.05 1.05,-1.05 z" />
+      <path class="normkey"
+         d="M 9.45,7.35 c -1.05,1.05 -2.10,2.10 -2.10,11.55 c 0,9.45 1.05,10.50 2.10,11.55 c 1.05,1.05 2.10,2.10 11.55,2.10 h 21 c 9.45,0 10.50,-1.05 11.55,-2.10 c 1.05,-1.05 2.10,-2.10 2.10,-11.55 c 0,-9.45 -1.05,-10.50 -2.10,-11.55 c -1.05,-1.05 -2.10,-2.10 -11.55,-2.10 h -21 c -9.45,0 -10.50,1.05, -11.55,2.10 z" />
+      <text class="text-cap" x="31.5" y="21" text-anchor="middle"><tspan>TAB</tspan></text>
+    </g>
+    <g id="keyq" transform="translate(112,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">Q</text>
+    </g>
+    <g id="keyw" transform="translate(156,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">W</text>
+    </g>
+    <g id="keye" transform="translate(200,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">E</text>
+    </g>
+    <g id="keyr" transform="translate(244,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">R</text>
+    </g>
+    <g id="keyt" transform="translate(288,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">T</text>
+    </g>
+    <g id="keyy" transform="translate(332,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">Y</text>
+    </g>
+    <g id="keyu" transform="translate(376,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">7</text>
+      <text class="letter-cap-sm" x="21" y="29">U</text>
+    </g>
+    <g id="keyi" transform="translate(420,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">8</text>
+      <text class="letter-cap-sm" x="21" y="29">I</text>
+    </g>
+    <g id="keyo" transform="translate(464,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">9</text>
+      <text class="letter-cap-sm" x="21" y="29">O</text>
+    </g>
+    <g id="keyp" transform="translate(508,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">P</text>
+    </g>
+    <g id="keylbrack" transform="translate(552,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="34" text-anchor="middle" transform="scale(1,0.8)"><tspan>[</tspan><tspan x="21" dy="-14">{</tspan></text>
+    </g>
+    <g id="keyrbrack" transform="translate(596,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="34" text-anchor="middle" transform="scale(1,0.8)"><tspan>]</tspan><tspan x="21" dy="-14">}</tspan></text>
+    </g>
+    <g id="keyreturn" transform="translate(640,115)">
+  <path
+     d="m -33,44 v 42 h 75 v -86 h -42 v 44 z m 2.5042,0.93602945 c 1.64,0 8.18,3.88000005 9.65,3.88000005 c 1.39,0 8.54711,-0.4374434 9.23,-0.44 l 12.79432,-0.0479 c 2.13626,0.080805 -1.00417,-1.9930486 -1.02682,-3.0292191 c -0.0464,-0.44654075 0.67449,-1.2540685 1.14249,-1.25965211 c 0.86351,0 4.49332,2.31180021 4.53169,0.43966019 l -0.28421,-28.28071348 c -0.0202,-2.006705 0.53284,-7.894809 -0.0318,-8.57683 c -4.24367,-5.126178 -4.52173,-4.763068 -4.53193,-5.52361 c -0.0102,-0.760542 0.48287,-1.036078 1.22327,-0.988027 c 1.29369,0.06295 5.6009,3.638511 7.08084,3.717033 c 1.98252,0.0296 6.29326,-0.31931 10.66736,-0.214157 c 4.12355,0.09913 9.21056,0.335031 10.23056,0.335031 c 1.84,0 8.67,-4.04 9.39,-4.04 c 0.74,0 1.05,0.63 1.05,1.05 c 0,1.38 -5.91,5.43 -5.89,6.97 c 0.01,0.790001 0.5443,4.136759 0.55609,7.186801 l 0.19308,49.957028 c 0.007,1.932923 -0.70396,5.97876 -0.70396,6.38376 c 0.01,1.69 6.03,9.98 6.07,11.31 c 0.03,0.72 -0.44,1.05 -1.05,1.05 c -1.59,0 -7.49,-7.99 -9.52,-7.99 c -2.03,0 -3.27526,0.357527 -7.38,0.36 l -34.49106,0.02078 c -1.22206,7.36e-4 -7.26,-0.29 -9.23,-0.3 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6,-8.9 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.4 0.55,-7.82 0.53,-9.7099996 c -0.01,-1.7300005 -6.01,-5.4000005 -6.03,-7.1900005 c -0.01,-0.71 0.33,-1.05000005 1.05,-1.05000005 z m 7.14189,5.91624185 c -1.03014,0.7835729 -1.89189,2.4837587 -1.89189,11.9337587 c 0,9.45 1.05,10.5 2.1,11.55 c 1.05,1.05 2.06626,2.109466 11.51626,2.102966 l 34.5248,-0.02375 c 8.10474,-0.0056 8.5,-1.05 9.55,-2.1 c 0.525,-0.525 2.07711,-2.514774 2.05961,-8.17136 l -0.15464,-49.97299 c -0.22134,-8.163148 -1.10519,-7.888814 -2.13018,-8.963239 c -1.00902,-1.057679 -4.91783,-1.865934 -12.20142,-1.752205 c -6.90519,0.107821 -10.9583,-0.292205 -12.47511,1.223934 c -0.82283,0.82246 -1.13602,2.128076 -1.12092,5.007093 l 0.18775,35.7874741 c -0.19462,1.0975781 -0.64125,1.7093409 -2.16114,1.6259286 c -4.04031,-0.2217328 -16.03871,0.033866 -16.03871,0.033866 c -1.639,0.010677 -9.14868,-0.2711056 -11.056,1.1796822 z" />
+      <text class="text-cap" x="4.5" y="65" text-anchor="middle"><tspan>RETURN</tspan></text>
+    </g>
+    <g id="keydelete" transform="translate(684,115)">
+       <use href="#sinkey" x="0" y="0"/>
+      <g transform="translate(21,21) scale(0.9,1)"><text class="text-cap" x="0" y="0" text-anchor="middle"><tspan>DELETE</tspan></text></g>
+    </g>
+
+    <g id="keyctrl" transform="translate(15,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="21" text-anchor="middle" letter-spacing="0.8"><tspan>CTRL</tspan></text>
+    </g>
+    <g id="keycaps" transform="translate(59,159)">
+    <path
+       d="m 0,0 v 42 l 62.11,0.04 v -42 z m 2.1,1.05 c 1.64,0 8.18,3.88 9.65,3.88 c 1.39,0 5.91,-0.42 9.23,-0.44 v 0 c 3.73,-0.02 8.51,0.6 9.53,0.6 c 1.84,0 2.7108897,-2.117249 3.4186181,-2.249614 c 1.8135101,-0.339176 3.5256756,2.050063 2.0655182,2.931401 c -1.1814644,0.713121 -0.9541363,1.758213 -0.9341363,3.298213 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.01,1.69 2.19,5.12 2.23,6.45 c 0.297701,1.580842 -2.4555606,3.270562 -3.2137305,2.794094 c -1.3462291,-0.84603 -1.4862695,-4.874094 -3.5162695,-4.874094 c -2.03,0 -6.69,0.35 -9.38,0.36 v 0 c -2.69,0.01 -7.26,-0.29 -9.23,-0.3 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6,-8.9 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.4 0.55,-7.82 0.53,-9.71 c -0.01,-1.73 -6.01,-5.4 -6.03,-7.19 c -0.01,-0.71 0.33,-1.05 1.05,-1.05 z m 7.35,6.3 c -1.05,1.05 -2.1,2.1 -2.1,11.55 c 0,9.45 1.05,10.5 2.1,11.55 c 1.05,1.05 2.1,2.1 11.55,2.1 v 0 c 9.45,0 10.5,-1.05 11.55,-2.1 c 1.05,-1.05 2.1,-2.1 2.1,-11.55 c 0,-9.45 -1.05,-10.5 -2.1,-11.55 c -1.05,-1.05 -2.1,-2.1 -11.55,-2.1 v 0 c -9.45,0 -10.5,1.05 -11.55,2.1 z m 28.5422171,-4.749272 c 0,0 19.8653769,0.0065 20.1348009,0.0023 c 0.269424,-0.0042 2.312521,-1.884781 2.794321,-1.873337 c 0.481799,0.01144 0.645801,0.273548 0.643071,0.742389 c -0.0027,0.468841 -1.862397,2.247676 -1.862397,2.732977 l -0.01317,33.597249 c 0.03309,0.552198 1.671021,2.259603 1.679012,2.708083 c 0.0067,0.373961 -0.213279,0.797511 -0.717053,0.79996 c -0.503774,0.0024 -1.965709,-1.920215 -2.367658,-1.920215 l -21.123808,-0.08749 l -0.014198,-0.598539 l 21.9856513,-0.01472 l -0.09586,-35.547133 l -20.9692754,0.09403 z" />
+      <text class="text-cap" x="21" y="17" text-anchor="middle"><tspan>CAPS</tspan><tspan x="21" dy="9">LOCK</tspan></text>
+    </g>
+    <g id="keya" transform="translate(123,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">A</text>
+    </g>
+    <g id="keys" transform="translate(167,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">S</text>
+    </g>
+    <g id="keyd" transform="translate(211,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">D</text>
+    </g>
+    <g id="keyf" transform="translate(255,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">F</text>
+    </g>
+    <g id="keyg" transform="translate(299,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap-sm" x="21" y="29"><tspan>G</tspan><tspan class="text-cap" x="21" dy="-14">BELL</tspan></text>
+    </g>
+    <g id="keyh" transform="translate(343,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">H</text>
+    </g>
+    <g id="keyj" transform="translate(387,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">4</text>
+      <text class="letter-cap-sm" x="21" y="29"><tspan>J</tspan><tspan class="text-cap" x="21" dy="-14" text-anchor="left"></tspan></text>
+    </g>
+    <g id="keyk" transform="translate(431,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">5</text>
+      <text class="letter-cap-sm" x="21" y="29"><tspan>K</tspan><tspan class="text-cap" x="21" dy="-14" text-anchor="start">VT</tspan></text>
+    </g>
+    <g id="keyl" transform="translate(475,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">6</text>
+      <text class="letter-cap-sm" x="21" y="29"><tspan>L</tspan><tspan class="text-cap" x="21" dy="-14" text-anchor="start">FF</tspan></text>
+    </g>
+    <g id="keysemi" transform="translate(519,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="21" y="29" text-anchor="middle"><tspan>;</tspan><tspan x="21" dy="-14">:</tspan></text><!-- individual spacing -->
+    </g>
+    <g id="keyquote" transform="translate(563,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="20" y="32" text-anchor="middle"><tspan>'</tspan><tspan x="20" dy="-14">"</tspan></text>
+    </g>
+    <g id="keybackslash" transform="translate(684,159)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="20" y="30" text-anchor="middle"><tspan rotate="-10">\</tspan><tspan x="20" dy="-14">|</tspan></text>
+    </g>
+
+    <g id="keydata" transform="translate(-47,203)">
+       <use href="#sinkey" x="0" y="0"/>
+       <text class="text-cap" x="21" y="17" text-anchor="middle"><tspan>DATA</tspan><tspan x="21" dy="9">TALK</tspan><tspan dx="0.5" dy="-0.5">&#x25cf;</tspan></text>
+    </g>
+
+    <g id="keyview" transform="translate(15,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <line class="keysep" x1="11" y1="15" x2="31" y2="15"/>
+      <text class="text-cap" x="21" y="13" text-anchor="middle"><tspan>VIEW</tspan><tspan x="21" dy="10">FAULT</tspan><tspan x="21" dy="7">RESET</tspan></text>
+    </g>
+    <g id="keylshift" transform="translate(59,203)">
+  <path class="shiftk"
+     d="m 16,2.5 l -0.07343,0.635564 l -12.679327,-0.05167 l -0.09586,35.547127 l 12.56685,0.20893 l -0.0142,0.59854 l -11.705007,-0.10673 c -0.401949,0 -1.863884,1.92222 -2.367658,1.92022 c -0.503774,-0.002 -0.723753,-0.426 -0.717053,-0.79996 c 0.008,-0.44848 1.645922,-2.15589 1.679012,-2.70809 l -0.01317,-33.597242 c 0,-0.485301 -1.859697,-2.264136 -1.862397,-2.732977 c -0.0027,-0.468841 0.161272,-0.730949 0.643071,-0.742389 c 0.4818,-0.01144 2.524897,1.869137 2.794321,1.873337 c 0.269424,0.0042 11.844853,-0.04466 11.844853,-0.04466 z m 52.153197,-0.112606 c 0,0 11.427114,0.04363 11.696538,0.03943 c 0.269424,-0.0042 2.312521,-1.884777 2.794321,-1.873337 c 0.481799,0.01144 0.645771,0.273548 0.643071,0.742389 c -0.0027,0.468841 -1.862397,2.247676 -1.862397,2.732977 l -0.01317,33.597248 c 0.03309,0.5522 1.671012,2.25961 1.679012,2.70809 c 0.0067,0.37396 -0.213279,0.79796 -0.717053,0.79996 c -0.503774,0.002 -1.965709,-1.92022 -2.367658,-1.92022 l -12.089581,-0.0191 l -0.0142,-0.59854 l 12.951424,-0.0831 l -0.09586,-35.547133 l -12.531012,0.0569 z m -42.535473,4.944467 c -1.05,1.05 -2.1,2.1 -2.1,11.55 c 0,9.45 1.05,10.5 2.1,11.55 c 1.05,1.05 2.1,2.1 11.55,2.1 h 10 c 9.45,0 10.5,-1.05 11.55,-2.1 c 1.05,-1.05 2.1,-2.1 2.1,-11.55 c 0,-9.45 -1.05,-10.5 -2.1,-11.55 c -1.05,-1.05 -2.1,-2.1 -11.55,-2.1 h -10 c -9.45,0 -10.5,1.05 -11.55,2.1 z m -25.45,-7.35 v 42 h 84 v -42 z m 27.75,4.93 c 1.39,0 5.91,-0.42 9.23,-0.44 h 10 c 3.73,-0.02 8.51,0.6 9.53,0.6 c 1.84,0 6.461833,-4.050051 7.181668,-4.065461 c 2.579569,-0.05522 3.131212,3.574391 3.126542,3.994365 c -0.06523,5.865756 -5.844223,-3.342202 -5.75821,4.051096 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.28203,10.12059 6.180677,1.47274 6.12,5.41 c 0.03,0.72 -0.867777,5.81778 -3.160509,5.86763 c -1.589624,0.0345 -5.429491,-6.90763 -7.459491,-6.90763 c -2.03,0 -6.69,0.35 -9.38,0.36 h -10 c -2.69,0.01 -7.26063536,-0.35102 -9.23,-0.3 c -3.4969699,0.0906 -7.3809689,7.77866 -8.798548,7.69517 c -2.084078,-0.12274 -2.046066,-5.17688 -2.050168,-5.98694 c -0.01837,-3.6291 6.3783803,6.30489 6.178716,-6.14823 c -0.034313,-2.1401 -0.54,-6.19 -0.54,-9.59 c 0,-3.4 0.583267,-7.82064 0.53,-9.71 c -0.1726543,-6.123961 -5.476223,-0.677715 -5.496223,-2.467715 c -0.01,-0.71 -0.323737,-5.905808 1.916335,-5.909561 c 1.7060622,-0.0029 6.769888,4.027276 8.239888,4.027276 z" />
+      <text class="text-cap" x="42" y="21" text-anchor="middle"><tspan>SHIFT</tspan></text>
+    </g>
+    <g id="keyz" transform="translate(145,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">Z</text>
+    </g>
+    <g id="keyx" transform="translate(189,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">X</text>
+    </g>
+    <g id="keyc" transform="translate(233,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">C</text>
+    </g>
+    <g id="keyv" transform="translate(277,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">V</text>
+    </g>
+    <g id="keyb" transform="translate(321,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">B</text>
+    </g>
+    <g id="keyn" transform="translate(365,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="letter-cap" x="21" y="25">N</text>
+    </g>
+    <g id="keym" transform="translate(409,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">1</text>
+      <text class="letter-cap-sm" x="21" y="29">M</text>
+    </g>
+    <g id="keycomma" transform="translate(453,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">2</text>
+      <text class="double-cap" x="21" y="28" text-anchor="middle"><tspan>,</tspan><tspan x="21" dy="-11" text-anchor="start">&lt;</tspan></text>
+    </g>
+    <g id="keystop" transform="translate(497,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">3</text>
+      <text class="double-cap" x="21" y="28" text-anchor="middle"><tspan>.</tspan><tspan x="21" dy="-11" text-anchor="start">&gt;</tspan></text>
+    </g>
+    <g id="keyslash" transform="translate(541,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="double-cap" x="20" y="30" text-anchor="middle"><tspan rotate="10">/</tspan><tspan x="20" dy="-14">?</tspan></text>
+    </g>
+    <g id="keyrshift" transform="translate(585,203)">
+  <path class="shiftk"
+     d="m 16,2.5 l -0.07343,0.635564 l -12.679327,-0.05167 l -0.09586,35.547127 l 12.56685,0.20893 l -0.0142,0.59854 l -11.705007,-0.10673 c -0.401949,0 -1.863884,1.92222 -2.367658,1.92022 c -0.503774,-0.002 -0.723753,-0.426 -0.717053,-0.79996 c 0.008,-0.44848 1.645922,-2.15589 1.679012,-2.70809 l -0.01317,-33.597242 c 0,-0.485301 -1.859697,-2.264136 -1.862397,-2.732977 c -0.0027,-0.468841 0.161272,-0.730949 0.643071,-0.742389 c 0.4818,-0.01144 2.524897,1.869137 2.794321,1.873337 c 0.269424,0.0042 11.844853,-0.04466 11.844853,-0.04466 z m 52.153197,-0.112606 c 0,0 11.427114,0.04363 11.696538,0.03943 c 0.269424,-0.0042 2.312521,-1.884777 2.794321,-1.873337 c 0.481799,0.01144 0.645771,0.273548 0.643071,0.742389 c -0.0027,0.468841 -1.862397,2.247676 -1.862397,2.732977 l -0.01317,33.597248 c 0.03309,0.5522 1.671012,2.25961 1.679012,2.70809 c 0.0067,0.37396 -0.213279,0.79796 -0.717053,0.79996 c -0.503774,0.002 -1.965709,-1.92022 -2.367658,-1.92022 l -12.089581,-0.0191 l -0.0142,-0.59854 l 12.951424,-0.0831 l -0.09586,-35.547133 l -12.531012,0.0569 z m -42.535473,4.944467 c -1.05,1.05 -2.1,2.1 -2.1,11.55 c 0,9.45 1.05,10.5 2.1,11.55 c 1.05,1.05 2.1,2.1 11.55,2.1 h 10 c 9.45,0 10.5,-1.05 11.55,-2.1 c 1.05,-1.05 2.1,-2.1 2.1,-11.55 c 0,-9.45 -1.05,-10.5 -2.1,-11.55 c -1.05,-1.05 -2.1,-2.1 -11.55,-2.1 h -10 c -9.45,0 -10.5,1.05 -11.55,2.1 z m -25.45,-7.35 v 42 h 84 v -42 z m 27.75,4.93 c 1.39,0 5.91,-0.42 9.23,-0.44 h 10 c 3.73,-0.02 8.51,0.6 9.53,0.6 c 1.84,0 6.461833,-4.050051 7.181668,-4.065461 c 2.579569,-0.05522 3.131212,3.574391 3.126542,3.994365 c -0.06523,5.865756 -5.844223,-3.342202 -5.75821,4.051096 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.28203,10.12059 6.180677,1.47274 6.12,5.41 c 0.03,0.72 -0.867777,5.81778 -3.160509,5.86763 c -1.589624,0.0345 -5.429491,-6.90763 -7.459491,-6.90763 c -2.03,0 -6.69,0.35 -9.38,0.36 h -10 c -2.69,0.01 -7.26063536,-0.35102 -9.23,-0.3 c -3.4969699,0.0906 -7.3809689,7.77866 -8.798548,7.69517 c -2.084078,-0.12274 -2.046066,-5.17688 -2.050168,-5.98694 c -0.01837,-3.6291 6.3783803,6.30489 6.178716,-6.14823 c -0.034313,-2.1401 -0.54,-6.19 -0.54,-9.59 c 0,-3.4 0.583267,-7.82064 0.53,-9.71 c -0.1726543,-6.123961 -5.476223,-0.677715 -5.496223,-2.467715 c -0.01,-0.71 -0.323737,-5.905808 1.916335,-5.909561 c 1.7060622,-0.0029 6.769888,4.027276 8.239888,4.027276 z" />
+      <text class="text-cap" x="42" y="21" text-anchor="middle"><tspan>SHIFT</tspan></text>
+    </g>
+    <g id="keylinefeed" transform="translate(671,203)">
+       <use href="#sinkey" x="0" y="0"/>
+      <text class="text-cap" x="21" y="17" text-anchor="middle"><tspan>LINE</tspan><tspan x="21" dy="9">FEED</tspan></text>
+    </g>
+
+    <g id="keyspace" transform="translate(157,247)">
+      <path class="normkey" d="M 0,0 v42 h390 v-42 z m 2.10,1.05 c 1.64,0.00 8.18,3.88 9.65,3.88 c 1.39,0.00 5.91,-0.42 9.23,-0.44 h 348 c 3.73,-0.02 8.51,0.60 9.53,0.60 c 1.84,0 8.67,-4.04 9.39,-4.04 c 0.74,0 1.05,0.63 1.05,1.05 c 0,1.38 -5.91,5.43 -5.89,6.97 c 0.01,0.79 0.49,6.84 0.51,9.89 c 0.02,3.05 -0.69,8.82 -0.69,9.63 c 0.01,1.69 6.03,9.98 6.07,11.31 c 0.03,0.72 -0.44,1.05 -1.05,1.05 c -1.59,0 -7.49,-7.99 -9.52,-7.99 c -2.03,0 -6.69,0.35 -9.38,0.36 h -348 c -2.69,0.01 -7.26,-0.29 -9.23,-0.30 c -1.97,-0.01 -8.25,7.93 -9.67,7.92 c -0.56,0 -1.04,-0.24 -1.05,-1.05 c -0.02,-1.28 6.00,-8.90 6.05,-11.31 c 0.04,-2.14 -0.54,-6.19 -0.54,-9.59 c 0,-3.40 0.55,-7.82 0.53,-9.71 c -0.01,-1.73 -6.01,-5.40 -6.03,-7.19 c -0.01,-0.71 0.33,-1.05 1.05,-1.05 z" />
+      <path class="normkey" d="M 9.45,7.35 c -1.05,1.05 -2.10,2.10 -2.10,11.55 c 0,9.45 1.05,10.50 2.10,11.55 c 1.05,1.05 2.10,2.10 11.55,2.10 h 348 c 9.45,0 10.50,-1.05 11.55,-2.10 c 1.05,-1.05 2.10,-2.10 2.10,-11.55 c 0,-9.45 -1.05,-10.50 -2.10,-11.55 c -1.05,-1.05 -2.10,-2.10 -11.55,-2.10 h -348 c -9.45,0 -10.50,1.05, -11.55,2.10 z" />
+      <g transform="translate(307,6)">
+      <rect class="nkpd" x="9.5" y="8.5" width="8" height="8"/>
+      <text class="nleg" x="13.5" y="15">0</text>
+      </g>
+    </g>
+  </g>
+</svg>
